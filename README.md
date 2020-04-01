@@ -10,7 +10,7 @@ Simple cross platform (Android/iOS) searchable and scrollable dropdown autocompl
 ## Installation
 
 ```
-npm i react-native-autocomplete-textinput --save
+npm i react-native-dropdown-autocomplete-textinput --save
 ```
 
 <!--
@@ -27,7 +27,7 @@ This calculates component's PositionX and PositionY and sets it back into the co
 ### Minimal example
 
 ```js
-import Autocomplete from 'react-native-autocomplete-textinput';
+import Autocomplete from 'react-native-dropdown-autocomplete-textinput';
 
 <View>
   <Autocomplete
@@ -52,7 +52,7 @@ import {
   ScrollView,
   SafeAreaView,
 } from 'react-native';
-import Autocomplete from 'react-native-autocomplete-textinput';
+import Autocomplete from 'react-native-dropdown-autocomplete-textinput';
 export default class App extends Component {
   constructor(props) {
     super(props);
