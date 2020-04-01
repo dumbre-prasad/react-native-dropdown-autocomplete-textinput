@@ -1,4 +1,4 @@
-# React Native Autocomplete Textinput
+# React Native Dropdown Autocomplete Textinput
 
 Simple cross platform (Android/iOS) searchable and scrollable dropdown autocomplete textinput for React Native App!
 
@@ -132,8 +132,12 @@ For complete implementation checkout app.js file.
 | textInputStyle    | object  | undefined  | For textinput styling                       |
 | value             | object  | undefined  | Can be used in case of controlled component |
 
-<!-- ## Demo
+## Demo
 
 <p align="center">
-    <img src ="https://raw.githubusercontent.com/alinz/react-native-dropdown/master/dropdown.gif" />
-</p> -->
+    <img src ="https://github.com/dumbre-prasad/react-native-dropdown-autocomplete-textinput/blob/master/src/images/Android_Autocomplete.gif?raw=true" />
+</p> 
+
+<p align="center">
+    <img src ="https://github.com/dumbre-prasad/react-native-dropdown-autocomplete-textinput/blob/master/src/images/Ios_Autocomplete.gif?raw=true" />
+</p> 

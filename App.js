@@ -5,7 +5,7 @@ import {
   ScrollView,
   SafeAreaView,
 } from 'react-native';
-import Autocomplete from './src/autoComplete/Autocomplete';
+import Autocomplete from 'react-native-dropdown-autocomplete-textinput';
 console.disableYellowBox = true;
 export default class App extends Component {
   constructor(props) {
