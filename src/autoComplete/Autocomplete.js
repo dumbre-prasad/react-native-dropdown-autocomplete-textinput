@@ -177,7 +177,7 @@ const AutoComplete = props => {
           multiline={selectedItem ? true : false}
           onFocus={handleOnFocus}
           onBlur={() => setIsFocused(false)}
-          clearTextOnFocus="true"
+          clearTextOnFocus={true}
           underlineColorAndroid={isFocused ? defaultAccentColor : '#C7C1CB'}
         />
 
