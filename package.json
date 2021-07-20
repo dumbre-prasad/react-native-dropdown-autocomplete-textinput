@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.0",
+    "react-native": "0.62.3",
     "react-native-dropdown-autocomplete-textinput": "^1.0.1"
   },
   "devDependencies": {
