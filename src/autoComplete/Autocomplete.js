@@ -34,6 +34,8 @@ const AutoComplete = props => {
     editable = true,
     dropDownIconColor = defaultAccentColor,
     dropDownImage = defaultDropDownImage,
+    textColorEditable = '#4B5258#6c6c6c',
+    textColorNoneditable = '#6c6c6c',
   } = props;
 
   const [filteredData, setFilteredData] = useState([]);
@@ -161,7 +163,7 @@ const AutoComplete = props => {
           style={{
             width: '100%',
             paddingRight: 12,
-            color: !editable ? '#6c6c6c' : '#4B5258',
+            color: !editable ? textColorNoneditable : textColorEditable,
             borderBottomWidth: Platform.OS === 'ios' ? 1 : 0,
             borderBottomColor: '#C7C1CB',
             marginTop: Platform.OS === 'ios' ? "3%" : 0,
