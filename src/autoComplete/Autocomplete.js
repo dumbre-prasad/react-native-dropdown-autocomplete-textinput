@@ -34,7 +34,7 @@ const AutoComplete = props => {
     editable = true,
     dropDownIconColor = defaultAccentColor,
     dropDownImage = defaultDropDownImage,
-    textColorEditable = '#4B5258#6c6c6c',
+    textColorEditable = '#4B5258',
     textColorNoneditable = '#6c6c6c',
   } = props;
 
