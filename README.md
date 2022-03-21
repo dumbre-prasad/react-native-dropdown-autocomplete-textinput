@@ -119,18 +119,20 @@ For complete implementation checkout app.js file.
 
 ##### Optional Props:
 
-| Property          | Type    | Default    | Description                                 |
-| ----------------- | ------- | ---------- | ------------------------------------------- |
-| placeholder       | string  | undefined  | placeholder string                          |
-| placeholderColor  | string  | undefined  | placeholderColor string                     |
-| isMandatory       | boolean | false      | shows astreisk in case of mandatory field   |
-| maxHeight         | number  | undefined  | to set maximum height of dropdown list      |
-| floatBottom       | boolean | false      | to always open dropdown below the textinput |
-| editable          | boolean | true       | to disable input                            |
-| dropDownIconColor | string  | undefinned | to change dropdown image color              |
-| dropDownImage     | png     | undefined  | to set dropdown image                       |
-| textInputStyle    | object  | undefined  | For textinput styling                       |
-| value             | object  | undefined  | Can be used in case of controlled component |
+| Property             | Type    | Default    | Description                                 |
+| -------------------- | ------- | ---------- | ------------------------------------------- |
+| placeholder          | string  | undefined  | placeholder string                          |
+| placeholderColor     | string  | undefined  | placeholderColor string                     |
+| isMandatory          | boolean | false      | shows astreisk in case of mandatory field   |
+| maxHeight            | number  | undefined  | to set maximum height of dropdown list      |
+| floatBottom          | boolean | false      | to always open dropdown below the textinput |
+| editable             | boolean | true       | to disable input                            |
+| dropDownIconColor    | string  | undefinned | to change dropdown image color              |
+| dropDownImage        | png     | undefined  | to set dropdown image                       |
+| textInputStyle       | object  | undefined  | For textinput styling                       |
+| value                | object  | undefined  | Can be used in case of controlled component |
+|textColorEditable     | string  | '#4B5258'  | color of the text for an editable TextInput |
+|textColorNoneditable  | string  | '#6c6c6c'  | color of the text for nonEditable TextInput |
 
 ## Demo
 
